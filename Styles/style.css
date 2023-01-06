@@ -14,6 +14,7 @@
 
 }
 
+
 .header-title {
     padding: 167px 190px 800px;
     text-align: right;
@@ -35,5 +36,81 @@
     text-align: right;
     padding: 20px 400px 770px;
 
+
+}
+
+/* End the header design */
+
+/* Start main portion design */
+
+main {
+    margin: 0 auto;
+    max-width: 1150px;
+
+
+}
+
+.my-failures {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 87px;
+}
+
+.failure-list {
+    margin-left: 60px;
+    padding: 80px 80px;
+}
+
+
+.my-failures h1 {
+    font-weight: 800;
+    font-size: 35px;
+
+
+}
+
+.my-failures p {
+    color: #444343;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 40px 80px;
+
+}
+
+ul li {
+    list-style: none;
+    color: #444343;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+
+
+}
+
+.my-plan {
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.my-plan h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.plan h3 {
+    color: #444343;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
 
 }
