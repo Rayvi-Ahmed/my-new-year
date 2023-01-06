@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Start header design */
+
+.header-container {
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 550px;
+
+}
+
+.header-title {
+    padding: 167px 190px 800px;
+    text-align: right;
+
+}
+
+.head-qoute {
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+.header-des {
+    color: #444343;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 60%;
+    text-align: right;
+    padding: 20px 400px 770px;
+
+
+}
