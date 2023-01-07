@@ -10,15 +10,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    height: 550px;
+    height: 650px;
 
 }
 
 .header-title {
     text-align: right;
-    padding: 150px 170px;
-    width: 550px;
-    margin-left: 500px;
+    padding: 150px 120px;
+    width: 600px;
+    margin-left: 480px;
 
 }
 
@@ -61,7 +61,7 @@ main {
     margin-top: 150px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 70px;
 }
 
 .my-failures p {
@@ -79,7 +79,8 @@ main {
 .my-failures ul>li {
     list-style: none;
     color: #444343;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
 .fa-circle-check {
@@ -169,7 +170,7 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
-    gap: 70px;
+    gap: 120px;
 
 }
 
