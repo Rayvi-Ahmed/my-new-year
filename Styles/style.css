@@ -14,30 +14,37 @@
 
 }
 
-
 .header-title {
-    padding: 167px 190px 800px;
     text-align: right;
+    padding: 150px 170px;
 
 }
 
 .head-qoute {
-    font-weight: 700;
-    font-size: 45px;
+    font-weight: 800;
+    font-size: 60px;
 
+}
+
+.btn-contact {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 35px;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 7px;
 }
 
 .header-des {
     color: #444343;
-    font-weight: 300;
-    font-size: 16px;
-    margin-top: 10px;
-    width: 60%;
+    font-size: 20px;
     text-align: right;
-    padding: 20px 400px 770px;
-
 
 }
+
+
 
 /* End the header design */
 
@@ -74,7 +81,7 @@ main {
 .my-failures ul>li {
     list-style: none;
     color: #444343;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /* My Plan portion design */
@@ -84,15 +91,18 @@ main {
     padding: 30px;
 }
 
-.my-plan h1 {
-    font-weight: 800;
-    font-size: 35px;
+.plan-header {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
 }
+
 
 .plans {
     display: flex;
     justify-content: space-around;
-    margin-left: 10px;
+    margin-top: 30px;
 
 }
 
@@ -101,7 +111,7 @@ main {
     font-size: 17px;
     font-weight: 700;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 30px;
 
 }
 
@@ -125,10 +135,9 @@ main {
     border-radius: 10px;
     background-color: #ffff;
     font-size: 20px;
-    height: 64px;
+    height: 44px;
     padding: 10px 20px;
     margin-top: 10px;
-
 
 
 }
@@ -153,4 +162,51 @@ main {
 .Mission p {
     color: #444343;
     font-size: 20px;
+}
+
+footer {
+    margin-top: 150px;
+
+    ;
+}
+
+.future h1 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.email {
+    margin: 10px 10px;
+}
+
+.phone {
+    margin: 10px 10px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #ffff;
+    gap: 80px;
+}
+
+
+.subscribe-area input {
+    border: 1px solid #fff;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: #151414;
+    color: white;
+    width: 325px;
+    height: 55px;
+
+}
+
+.social img {
+    margin: 20px 10px 10px;
+
 }
