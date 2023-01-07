@@ -45,50 +45,39 @@
 
 main {
     margin: 0 auto;
-    max-width: 1150px;
-
+    max-width: 1100px;
 
 }
+
+/* Failuers Portion design */
 
 .my-failures {
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 87px;
-}
-
-.failure-list {
-    margin-left: 60px;
-    padding: 80px 80px;
-}
-
-
-.my-failures h1 {
-    font-weight: 800;
-    font-size: 35px;
-
-
+    gap: 70px;
 }
 
 .my-failures p {
     color: #444343;
-    font-weight: 300;
-    font-size: 16px;
-    padding: 40px 80px;
+    margin-bottom: 15px;
 
 }
 
-ul li {
+.my-failures h1 {
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.my-failures ul>li {
     list-style: none;
     color: #444343;
-    font-weight: 300;
-    font-size: 16px;
-    margin-top: 5px;
-
-
+    margin-bottom: 5px;
 }
 
+/* My Plan portion design */
 .my-plan {
     margin-top: 100px;
     text-align: center;
@@ -103,6 +92,7 @@ ul li {
 .plans {
     display: flex;
     justify-content: space-around;
+    margin-left: 10px;
 
 }
 
@@ -113,4 +103,54 @@ ul li {
     text-align: center;
     margin-top: 5px;
 
+}
+
+.mindset-banner {
+    color: #ffff;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 50px;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+
+.btn-call {
+    color: orangered;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffff;
+    font-size: 20px;
+    height: 64px;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+
+
+}
+
+.my-mission {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.Mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    gap: 40px;
+
+}
+
+.Mission p {
+    color: #444343;
+    font-size: 20px;
 }
